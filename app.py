@@ -33,4 +33,4 @@ for linha in pagina_clientes.iter_rows(min_row=2):
     except:
         print(f'Não foi possivel enviar mensagem para {nome}')
         with open('erros.csv','a',newline='',encoding='utf-8') as arquivo:
-            arquivo.write(f'{nome},{telefone}')   
+            arquivo.write(f'{nome},{telefone}')
